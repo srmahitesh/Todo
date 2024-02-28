@@ -33,7 +33,7 @@ function DisplayList(){
     <div><span>${item}</span></div>
     <div><span>${date}</span></div>
     <div> 
-    <button onclick="
+    <button id="delete-button" onclick="
     List.splice(${i},1);
     DisplayList();
     ">Delete</button> </div>
