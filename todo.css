@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+  
+  #mainheading{
+    text-align: center;
+  }
+  
+  #inputbox{
+    width: 150px;
+    height: 50px;
+  }
+  
+  #inputdate{
+    width: 150px;
+    height: 50px;
+  }
+  
+  #internaldiv{
+    display: grid;
+    grid-template-columns: 150px 100px 1500px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  button{
+    width: 70px;
+    height: 50px;
+  }
+  
