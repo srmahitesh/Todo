@@ -19,7 +19,8 @@ body{
 #internaldiv{
   display: grid;
   grid-template-columns: 200px 140px 100px;
-  margin-top: 15px;
+  align-items: center;
+  margin: 15px 15px 15px 15px;
   /* padding: 10px 10px 10px 10px; */
 }
 
@@ -28,19 +29,30 @@ button{
   margin-left: 20px;
   width: 100px;
   height: 50px;
+  cursor: pointer;
 }
 
-#add-button{
-  border-radius: 10px;
-  background-color: rgb(35, 182, 35);
-}
 
 #delete-button{
   border-radius: 10px;
-  background-color: rgb(223, 50, 50);
+  background-color: rgb(99, 35, 35);
+  border: none;
+  color: antiquewhite;
 }
 
 #inputdate{
   margin-left: 20px;
-  bord
-}  
+
+}
+
+#heading-div{
+  margin: 15px 15px 30px 15px;
+}
+
+
+#add-button{
+  border-radius: 10px;
+  background-color: rgb(74, 210, 74);
+  border: none;
+}
+
