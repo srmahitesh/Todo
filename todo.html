@@ -11,11 +11,13 @@
 
   <h1 id="mainheading">Todo App</h1>
 
-  <input type="Text" placeholder="Enter Todo Here" id="inputbox">
-  <input type="date" id="inputdate">
+  <div id="heading-div">
+    <input type="Text" placeholder="Enter Todo Here" id="inputbox" required>
+  <input type="date" id="inputdate" required>
 
   <button id="add-button" onclick="addToList();
   DisplayList(); ">Add</button>
+  </div>
 
 
   <div id="List-Container">
@@ -23,6 +25,8 @@
   </div>
 
 </div>
+<h2 style="font-family: cursive;">Made with ❤️ by Hitesh Sharma</h2>
+
 
   <script src="todo.js"></script>
 </body>
